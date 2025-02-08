@@ -1,0 +1,1 @@
+This bug occurs when using the Expo `Image` component with a remote image URL that is intermittently unavailable. The image fails to load, and Expo doesn't provide a clear error message. This leads to a broken UI, as the image placeholder or error handler may not trigger.
